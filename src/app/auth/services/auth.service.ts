@@ -44,6 +44,7 @@ export class AuthService {
    public login(email: string, password: string): Observable<boolean> {
 
       const url: string = `${this.baseUrl}/auth/login`;
+      // console.log(url);
       const body = { email: email, password: password };
 
       return this.http.post<LoginResponse>(url, body)

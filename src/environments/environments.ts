@@ -1,3 +1,3 @@
 export const environments = {
-   BACKEND_URL: 'http://localhost:3000'
+   BACKEND_URL: 'localhost:3000',
  }
